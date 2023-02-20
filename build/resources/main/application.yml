@@ -1,0 +1,7 @@
+spring:
+  datasource:
+    # url : url: jdbc:mariadb://URL/database
+    url: jdbc:sqlserver://localhost:1433;databaseName=EunbyeolLocalTestDB
+    driver-class-name: com.microsoft.sqlserver.jdbc.SQLServerDriver
+    username: sa
+    password: eb0413
